@@ -5,21 +5,29 @@
 #block-1 {
     border:1px solid grey;
     height:75px;
-    width:450px;
 }
 
 #cal-color{
-width: 450px;
+width: 350px;
     border:1px solid black;
-
 }
 
+#block-1 input {
+    width:100px;
+    height:50px;
+    font-size:50px;
+}
 
-#cal-color button {
+#cal-color button, input {
     width:75px;
     height:75px;
     font-size:50px;
 }
+
+#cal-color input {
+
+}
+
 
 button.c-bg {
     /*width: 100px;*/ /*fix*/
