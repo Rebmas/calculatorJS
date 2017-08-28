@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>Calculator JS</title>
     <link rel="stylesheet" href="css/calculator-style.css">
-    <link rel=“stylesheet” href=“https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css” integrity=“sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u” crossorigin=“anonymous”>
+
 </head>
 <body>
 
@@ -13,14 +13,12 @@
     <h2>Calculator JS</h2>
     <div id="cal-color">
         <div id="block-1">
-            <div id="row">
-                <input id="result1" type="text" disabled>
-                <input id="result2" type="text" disabled>
-                <input id="result3" type="text" disabled>
-            </div>
+            <div id="result1" class="result1"></div>
+            <div id="result2"></div>
+            <div id="result3"></div>
         </div>
         <div id=“row-1”>
-            <button id ="c" class="operator c-big-btn" style="width: 154px;">C</button>
+            <button id ="c" class="clear c-big-btn" style="width: 154px;">C</button>
             <button id="divide" value="%"  class="operator">%</button>
             <button id="add" class="operator">+</button>
         </div>
@@ -45,29 +43,16 @@
         <div id=“row-5">
         <button id="zero">0</button>
         <button id="period" class="operator">.</button>
-            <button id="equal" class="operator big-btn" style="width: 154px;">=</button>
+            <button id="equal" class="equalsign big-btn" style="width: 154px;">=</button>
     </div>
     </div>
 </div>
-<script
-    src="js/calculator.js">
+<script src="js/calculator.js">
 
 </script>
 <footer>
     <span class="glyphicon glyphicon-heart">heey</span>
 </footer>
 
-
-<script
-        src=“https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js”
-        integrity=“sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa”
-        crossorigin=“anonymous”>
-
-</script>
-<script
-        src=“http://code.jquery.com/jquery-3.2.1.min.js”
-        integrity=“sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=”
-        crossorigin=“anonymous”>
-</script>
 </body>
 </html>

@@ -7,13 +7,93 @@ body{
 #container{
     text-align:center;
     margin:auto;
-
 }
 
 #block-1 {
     border:1px solid grey;
     height:75px;
 }
+#result1 {
+    display:block;
+    font-family: sans-serif;
+    width:130px;
+    height:65px;
+    margin:10px auto;
+    text-align: right;
+    border:0;
+    background:#FEF2FF;
+    color: #9c2565;
+    font-size:50px;
+    margin-left: 0px;
+    margin-right: 10px;
+    outline: none;
+    overflow: hidden;
+    letter-spacing: 4px;
+    position: relative;
+    top:-10px;
+    padding-top: 10px;
+    float: left;
+}
+
+#result1:hover {
+    cursor: text;
+}
+
+#result2 {
+    display:block;
+    font-family: sans-serif;
+    width:60px;
+    height:65px;
+    font-size:50px;
+    margin:10px auto;
+    text-align: right;
+    border:0;
+    background:#FEF2FF;
+    color: #9c2565;
+    padding-top: 10px;
+    margin-left: 0px;
+    outline: none;
+    overflow: hidden;
+    letter-spacing: 4px;
+    position: relative;
+    top:-10px;
+    float: left;
+    margin-right: 10px;
+
+}
+
+#result2:hover {
+    cursor: text;
+}
+
+#result3 {
+    display:block;
+    font-family: sans-serif;
+    width:130px;
+    height:65px;
+    font-size:50px;
+    margin:10px auto;
+    text-align: right;
+    border:0;
+    background:#FEF2FF;
+    color: #9c2565;
+    padding-top: 10px;
+    margin-left: 0px;
+    outline: none;
+    overflow: hidden;
+    letter-spacing: 4px;
+    position: relative;
+    top:-10px;
+    float: left;
+
+}
+
+#result3:hover {
+    cursor: text;
+}
+
+
+
 
 #cal-color{
     width: 350px;
