@@ -1,0 +1,30 @@
+.container{
+  color: lightgrey;
+}
+
+#block-1 {
+    border:1px solid grey;
+    height:75px;
+    width:450px;
+}
+
+#cal-color{
+width: 450px;
+    border:1px solid black;
+
+}
+
+
+#cal-color button {
+    width:75px;
+    height:75px;
+    font-size:50px;
+}
+
+button.c-bg {
+    /*width: 100px;*/ /*fix*/
+}
+
+button.big-btn {
+    /*width: 100px;*/ /*fix*/
+}
