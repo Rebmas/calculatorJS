@@ -1,8 +1,8 @@
 body{
-  background-color: #a7a7a7;
+  background-color: #FEF2FF;
     text-align:center;
     margin:auto;
-    background-image:url('../img/pink-marble-01.jpg');
+
 }
 #container{
     text-align:center;
@@ -19,6 +19,8 @@ body{
     width: 350px;
     border:1px solid black;
     margin:auto;
+    background-image:url('../img/pink-marble-01.jpg');
+    padding: 20px;
 }
 
 #block-1 input {
@@ -31,6 +33,8 @@ body{
     width:75px;
     height:75px;
     font-size:50px;
+    margin: 4px;
+
 }
 
 

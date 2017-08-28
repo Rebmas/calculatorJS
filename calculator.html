@@ -14,41 +14,45 @@
     <div id="cal-color">
         <div id="block-1">
             <div id="row">
-                <input type="text" disabled>
-                <input type="text" disabled>
-                <input type="text" disabled>
+                <input id="result1" type="text" disabled>
+                <input id="result2" type="text" disabled>
+                <input id="result3" type="text" disabled>
             </div>
         </div>
         <div id=“row-1”>
-            <button class="c-big-btn" style="width: 154px;">C</button>
-            <button>%</button>
-            <button>+</button>
+            <button id ="c" class="operator c-big-btn" style="width: 154px;">C</button>
+            <button id="divide" value="%"  class="operator">%</button>
+            <button id="add" class="operator">+</button>
         </div>
         <div id=“row-2”>
-            <button>7</button>
-            <button>8</button>
-            <button>9</button>
-            <button>-</button>
+            <button id="seven" class="number">7</button>
+            <button id="eight" class="number">8</button>
+            <button id="nine" class="number">9</button>
+            <button id="sub" class="operator">-</button>
         </div>
         <div id=“row-3">
-            <button>4</button>
-            <button>5</button>
-            <button>6</button>
-            <button>*</button>
+            <button id="four" class="number">4</button>
+            <button id="five" class="number">5</button>
+            <button id="six" class="number">6</button>
+            <button id="mult" class="operator">*</button>
         </div>
         <div id=“row-4”>
-            <button>1</button>
-            <button>2</button>
-            <button>3</button>
-            <button>/</button>
+            <button id="one" class="number">1</button>
+            <button id="two" class="number">2</button>
+            <button id="three" class="number">3</button>
+            <button id="slash" class="operator">/</button>
         </div>
         <div id=“row-5">
-        <button>0</button>
-        <button>.</button>
-            <button class="big-btn" style="width: 154px;">=</button>
+        <button id="zero">0</button>
+        <button id="period" class="operator">.</button>
+            <button id="equal" class="operator big-btn" style="width: 154px;">=</button>
     </div>
     </div>
 </div>
+<script
+    src="js/calculator.js">
+
+</script>
 <footer>
     <span class="glyphicon glyphicon-heart">heey</span>
 </footer>
