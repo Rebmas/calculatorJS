@@ -1,5 +1,13 @@
-.container{
-  color: lightgrey;
+body{
+  background-color: #a7a7a7;
+    text-align:center;
+    margin:auto;
+    background-image:url('../img/pink-marble-01.jpg');
+}
+#container{
+    text-align:center;
+    margin:auto;
+
 }
 
 #block-1 {
@@ -8,31 +16,31 @@
 }
 
 #cal-color{
-width: 350px;
+    width: 350px;
     border:1px solid black;
+    margin:auto;
 }
 
 #block-1 input {
-    width:100px;
-    height:50px;
+    width:95px;
+    height:60px;
     font-size:50px;
 }
 
-#cal-color button, input {
+#cal-color button {
     width:75px;
     height:75px;
     font-size:50px;
 }
 
-#cal-color input {
 
+
+.c-big-btn {
+    width: 154px;
+    background-color: lightpink;
 }
 
-
-button.c-bg {
-    /*width: 100px;*/ /*fix*/
-}
-
-button.big-btn {
-    /*width: 100px;*/ /*fix*/
+.big-btn {
+    width: 155px;
+    background-color: lightblue;
 }
