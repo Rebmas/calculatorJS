@@ -8,6 +8,8 @@ var result2 = document.getElementById("result2");
 var result3 = document.getElementById("result3");
 var clear = document.getElementById("c");
 var equal =document.getElementById("equal");
+var period = document.getElementById("period");
+var percent =document.getElementById("percent");
 
 for(var i = 0; i < numKeys.length; i++){
     numKeys[i].addEventListener("click", function(){
@@ -34,30 +36,44 @@ clear.addEventListener("click", function(){
     result3.innerHTML = "";
 });
 
-equal.addEventListener("click", function(){
-   if(result2.innerHTML === "*"){
-     result1.innerHTML = result1.innerHTML * result3.innerHTML
-   }
-   else if (result2.innerHTML === "-"){
-       result1.innerHTML = result1.innerHTML - result3.innerHTML
-   }
-    else if (result2.innerHTML === "/"){
-       result1.innerHTML = result1.innerHTML / result3.innerHTML
-   }
-   else if (result2.innerHTML === "+"){
-       result1.innerHTML = result1.innerHTML + result3.innerHTML
-   }
-   // else if (result2.innerHTML === "%"){
-   //     result1.innerHTML = result1.innerHTML  result3.innerHTML
-   // }
+
+
+equal.addEventListener("click", function() {
+    if (result2.innerHTML === "*") {
+        result1.innerHTML = result1.innerHTML * result3.innerHTML
+    }
+    else if (result2.innerHTML === "-") {
+        result1.innerHTML = result1.innerHTML - result3.innerHTML
+    }
+    else if (result2.innerHTML === "/") {
+        result1.innerHTML = result1.innerHTML / result3.innerHTML
+    }
+    else if (result2.innerHTML === "+") {
+        result1.innerHTML = parseInt(result1.innerHTML) + parseInt(result3.innerHTML)
+    }
+    else if (result2.innerHTML === "%") {
+        result1.innerHTML = result1.innerHTML / 100
+    }
 
 
     result2.innerHTML = "";
     result3.innerHTML = "";
 
+    for (var i = 0; i < period.length; i++) {
+        period[i].addEventListener("click", function () {
 
+            if (result3.innerHTML === "" && result2.innerHTML === "") {
+                result1.innerHTML += this.innerHTML;
+            } else {
+                result3.innerHTML += this.innerHTML;
+            }
+            console.log(this.innerHTML);
+        })
 
+    }
 });
+
+
 
 
 
