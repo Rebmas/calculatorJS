@@ -2,52 +2,45 @@ body{
   background-color: #FEF2FF;
     text-align:center;
     margin:auto;
-
+    padding-top:50px;
 }
 #container{
     text-align:center;
     margin:auto;
+    color: #7a7a7a;
+}
+#container h2{
+    color: #838383;
+    font-weight: bold;
+    font-size: xx-large;
 }
 
 #block-1 {
-    border:1px solid grey;
+    border:2px solid #838383;
     height:75px;
+    border-radius: 10px;
+    margin-bottom: 10px;
 }
 #result1 {
     display:block;
-    font-family: sans-serif;
-    width:130px;
-    height:65px;
-    margin:10px auto;
-    text-align: right;
-    border:0;
+    width:135px;
+    height:71px;
     background:#FEF2FF;
     color: #9c2565;
     font-size:50px;
-    margin-left: 0px;
     margin-right: 10px;
-    outline: none;
     overflow: hidden;
     letter-spacing: 4px;
-    position: relative;
-    top:-10px;
-    padding-top: 10px;
+    top:0px;
     float: left;
-}
-
-#result1:hover {
-    cursor: text;
+    border-radius: 10px;
 }
 
 #result2 {
     display:block;
-    font-family: sans-serif;
     width:60px;
-    height:65px;
+    height:71px;
     font-size:50px;
-    margin:10px auto;
-    text-align: right;
-    border:0;
     background:#FEF2FF;
     color: #9c2565;
     padding-top: 10px;
@@ -55,26 +48,15 @@ body{
     outline: none;
     overflow: hidden;
     letter-spacing: 4px;
-    position: relative;
-    top:-10px;
     float: left;
     margin-right: 10px;
-
-}
-
-#result2:hover {
-    cursor: text;
 }
 
 #result3 {
     display:block;
-    font-family: sans-serif;
-    width:130px;
-    height:65px;
+    width:139px;
+    height:71px;
     font-size:50px;
-    margin:10px auto;
-    text-align: right;
-    border:0;
     background:#FEF2FF;
     color: #9c2565;
     padding-top: 10px;
@@ -82,25 +64,17 @@ body{
     outline: none;
     overflow: hidden;
     letter-spacing: 4px;
-    position: relative;
-    top:-10px;
     float: left;
-
+    border-radius: 10px;
 }
-
-#result3:hover {
-    cursor: text;
-}
-
-
-
 
 #cal-color{
-    width: 350px;
-    border:1px solid black;
+    width: 402px;
+    border:2px solid #838383;
     margin:auto;
     background-image:url('../img/pink-marble-01.jpg');
     padding: 20px;
+    border-radius: 15px;
 }
 
 #block-1 input {
@@ -114,17 +88,31 @@ body{
     height:75px;
     font-size:50px;
     margin: 4px;
-
 }
 
-
-
 .c-big-btn {
-    width: 154px;
+    width: 104px;
     background-color: lightpink;
+    background-image:url('../img/pop-cat-sm.jpg');
+    margin-top:-10px;
+}
+
+.c-big-btn p{
+    color: #f9f9f9;
+    font-weight: bold;
 }
 
 .big-btn {
     width: 155px;
-    background-color: lightblue;
+    background-image:url('../img/unicorn-02Sm.jpg');
+}
+
+.big-btn p{
+    color: #f9f9f9;
+    margin-left: -100px;
+    font-weight: bold;
+}
+
+footer p{
+    color:#838383;
 }
