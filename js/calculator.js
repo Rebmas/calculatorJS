@@ -9,7 +9,7 @@ var result3 = document.getElementById("result3");
 var clear = document.getElementById("c");
 var equal =document.getElementById("equal");
 var period = document.getElementById("period");
-var percent =document.getElementById("percent");
+
 
 for(var i = 0; i < numKeys.length; i++){
     numKeys[i].addEventListener("click", function(){
